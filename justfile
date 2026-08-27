@@ -117,6 +117,11 @@ submit team="":
       -d "$BODY"
     echo
 
+# Query the live leaderboard and track results of all your team's submissions.
+status:
+    @python3 bin/status.py
+
+
 # Stop a submission you no longer want scored. Rollouts already running finish;
 # everything still queued is dropped, and the board says cancelled rather than
 # leaving it looking stalled.

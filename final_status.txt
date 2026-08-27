@@ -1,0 +1,148 @@
+$ just status
+===========================================================================
+🏆 LIVE BENCHMARK LEADERBOARD 🏆
+===========================================================================
+🥇 trainspotters          | Passed: 11/17 | Tokens:  5,853,347 | Best: trainspotters-81aab93b
+🥈 jestatlon              | Passed:  9/17 | Tokens:  6,587,271 | Best: jestatlon-8b0240b0
+🥉 benchbyte              | Passed:  8/17 | Tokens:  6,541,912 | Best: benchbyte-f983899b
+# 4 bart-de-raver          | Passed:  7/17 | Tokens:  2,608,066 | Best: bart-de-raver-7e583671
+# 5 solid-state-benchers   | Passed:  7/17 | Tokens:  3,108,484 | Best: solid-state-benchers-3cf5a840
+# 6 baseline               | Passed:  3/17 | Tokens:  2,706,406 | Best: custom-29a916dd
+
+===========================================================================
+YOUR SUBMISSIONS (Team: trainspotters)
+===========================================================================
+ID: trainspotters-300604cc (commit 18bf9ded) [RUNNING] - Completed: 17/17 | Passed: 6 | Tokens: 3,171,088 | Time: 1310.2s
+   ❌ airflow-assets                             (149.0s, agent: opencode)
+   ✅ airflow-parse-cost                         (117.1s, agent: opencode)
+   ❌ analyze-multi-run-plot                     ( 76.9s, agent: opencode)
+   ✅ dbt-scd2                                   (332.1s, agent: opencode)
+   ✅ extend-trajectory-multistep                (111.4s, agent: opencode)
+   ✅ git-secret-history                         (174.8s, agent: opencode)
+   ❌ harbor-analyze-results                     (120.0s, agent: opencode)
+   ❌ harbor-analyze-trajectories                ( 88.1s, agent: opencode)
+   ✅ polars-vectorise                           (216.3s, agent: opencode)
+   ❌ proxmox-container-ssh-troubleshooting      ( 61.2s, agent: opencode)
+   ❌ pyspark-skew                               ( 89.0s, agent: opencode)
+   ❌ survey-challenges-by-segment               (118.4s, agent: opencode)
+   ❌ survey-initiatives                         ( 90.9s, agent: opencode)
+   ❌ survey-normalize                           (152.8s, agent: opencode)
+   ❌ survey-top-challenges                      (122.5s, agent: opencode)
+   ✅ terraform-rekey                            (150.6s, agent: opencode)
+   ❌ warehouse-net-revenue                      (191.9s, agent: opencode)
+---------------------------------------------------------------------------
+ID: trainspotters-0cb8ad77 (commit 7b6b714a) [RUNNING] - Completed: 17/17 | Passed: 6 | Tokens: 1,290,786 | Time: 8606.6s
+   ❌ airflow-assets                             ( 75.4s, agent: custom)
+   ❌ airflow-parse-cost                         ( 91.0s, agent: custom)
+   ❌ analyze-multi-run-plot                     (108.0s, agent: custom)
+   ✅ dbt-scd2                                   (268.8s, agent: custom)
+   ✅ extend-trajectory-multistep                ( 69.1s, agent: custom)
+   ✅ git-secret-history                         ( 85.4s, agent: custom)
+   ❌ harbor-analyze-results                     (124.6s, agent: custom)
+   ❌ harbor-analyze-trajectories                ( 69.7s, agent: custom)
+   ✅ polars-vectorise                           (148.8s, agent: custom)
+   ✅ proxmox-container-ssh-troubleshooting      (116.7s, agent: custom)
+   ❌ pyspark-skew                               (125.4s, agent: custom)
+   ✅ survey-challenges-by-segment               ( 89.2s, agent: custom)
+   ❌ survey-initiatives                         (205.0s, agent: custom)
+   ❌ survey-normalize                           (198.0s, agent: custom)
+   ❌ survey-top-challenges                      ( 87.6s, agent: custom)
+   ❌ terraform-rekey                            ( 69.9s, agent: custom)
+   ❌ warehouse-net-revenue                      ( 91.5s, agent: custom)
+---------------------------------------------------------------------------
+ID: trainspotters-3008ab10 (commit 53ec0ba4) [RUNNING] - Completed: 17/17 | Passed: 7 | Tokens: 4,388,212 | Time: 1487.8s
+   ✅ airflow-assets                             (162.5s, agent: opencode)
+   ✅ airflow-parse-cost                         ( 80.8s, agent: opencode)
+   ❌ analyze-multi-run-plot                     (130.1s, agent: opencode)
+   ❌ dbt-scd2                                   (249.5s, agent: opencode)
+   ❌ extend-trajectory-multistep                (108.0s, agent: opencode)
+   ✅ git-secret-history                         (272.5s, agent: opencode)
+   ✅ harbor-analyze-results                     (103.6s, agent: opencode)
+   ❌ harbor-analyze-trajectories                ( 75.5s, agent: opencode)
+   ❌ polars-vectorise                           (194.9s, agent: opencode)
+   ❌ proxmox-container-ssh-troubleshooting      ( 96.1s, agent: opencode)
+   ✅ pyspark-skew                               (184.5s, agent: opencode)
+   ❌ survey-challenges-by-segment               (182.3s, agent: opencode)
+   ❌ survey-initiatives                         ( 80.7s, agent: opencode)
+   ✅ survey-normalize                           (252.5s, agent: opencode)
+   ❌ survey-top-challenges                      (124.7s, agent: opencode)
+   ✅ terraform-rekey                            (112.1s, agent: opencode)
+   ❌ warehouse-net-revenue                      (280.9s, agent: opencode)
+---------------------------------------------------------------------------
+ID: trainspotters-2a4be16e (commit 4b702899) [RUNNING] - Completed: 17/17 | Passed: 7 | Tokens: 3,802,437 | Time: 879.8s
+   ❌ airflow-assets                             (337.8s, agent: opencode)
+   ✅ airflow-parse-cost                         (103.3s, agent: opencode)
+   ❌ analyze-multi-run-plot                     (104.4s, agent: opencode)
+   ❌ dbt-scd2                                   (349.4s, agent: opencode)
+   ✅ extend-trajectory-multistep                ( 99.5s, agent: opencode)
+   ✅ git-secret-history                         (117.7s, agent: opencode)
+   ✅ harbor-analyze-results                     (118.9s, agent: opencode)
+   ❌ harbor-analyze-trajectories                (113.8s, agent: opencode)
+   ✅ polars-vectorise                           (218.8s, agent: opencode)
+   ❌ proxmox-container-ssh-troubleshooting      ( 65.3s, agent: opencode)
+   ✅ pyspark-skew                               (202.9s, agent: opencode)
+   ❌ survey-challenges-by-segment               (138.3s, agent: opencode)
+   ❌ survey-initiatives                         (335.9s, agent: opencode)
+   ❌ survey-normalize                           (174.6s, agent: opencode)
+   ❌ survey-top-challenges                      (172.5s, agent: opencode)
+   ✅ terraform-rekey                            (248.8s, agent: opencode)
+   ❌ warehouse-net-revenue                      (214.6s, agent: opencode)
+---------------------------------------------------------------------------
+ID: trainspotters-91de8fae (commit 45b237cb) [RUNNING] - Completed: 17/17 | Passed: 8 | Tokens: 3,340,860 | Time: 900.7s
+   ❌ airflow-assets                             ( 84.3s, agent: opencode)
+   ✅ airflow-parse-cost                         ( 88.8s, agent: opencode)
+   ❌ analyze-multi-run-plot                     ( 86.2s, agent: opencode)
+   ✅ dbt-scd2                                   (196.2s, agent: opencode)
+   ❌ extend-trajectory-multistep                ( 80.9s, agent: opencode)
+   ✅ git-secret-history                         (185.5s, agent: opencode)
+   ✅ harbor-analyze-results                     ( 95.2s, agent: opencode)
+   ❌ harbor-analyze-trajectories                (107.6s, agent: opencode)
+   ✅ polars-vectorise                           (179.5s, agent: opencode)
+   ❌ proxmox-container-ssh-troubleshooting      ( 74.0s, agent: opencode)
+   ✅ pyspark-skew                               (135.3s, agent: opencode)
+   ❌ survey-challenges-by-segment               (107.4s, agent: opencode)
+   ❌ survey-initiatives                         (124.8s, agent: opencode)
+   ✅ survey-normalize                           (199.6s, agent: opencode)
+   ❌ survey-top-challenges                      (125.4s, agent: opencode)
+   ✅ terraform-rekey                            (128.5s, agent: opencode)
+   ❌ warehouse-net-revenue                      (345.8s, agent: opencode)
+---------------------------------------------------------------------------
+ID: trainspotters-364f21cf (commit 16b676a4) [RUNNING] - Completed: 17/17 | Passed: 10 | Tokens: 3,573,869 | Time: 680.9s
+   ❌ airflow-assets                             (178.2s, agent: opencode)
+   ✅ airflow-parse-cost                         (110.0s, agent: opencode)
+   ❌ analyze-multi-run-plot                     (100.7s, agent: opencode)
+   ✅ dbt-scd2                                   (264.3s, agent: opencode)
+   ✅ extend-trajectory-multistep                ( 95.7s, agent: opencode)
+   ✅ git-secret-history                         (159.0s, agent: opencode)
+   ✅ harbor-analyze-results                     (120.3s, agent: opencode)
+   ❌ harbor-analyze-trajectories                ( 73.9s, agent: opencode)
+   ✅ polars-vectorise                           (164.9s, agent: opencode)
+   ❌ proxmox-container-ssh-troubleshooting      (127.6s, agent: opencode)
+   ✅ pyspark-skew                               (181.8s, agent: opencode)
+   ❌ survey-challenges-by-segment               (115.6s, agent: opencode)
+   ❌ survey-initiatives                         (124.2s, agent: opencode)
+   ✅ survey-normalize                           (205.9s, agent: opencode)
+   ✅ survey-top-challenges                      (146.4s, agent: opencode)
+   ✅ terraform-rekey                            (148.4s, agent: opencode)
+   ❌ warehouse-net-revenue                      (144.2s, agent: opencode)
+---------------------------------------------------------------------------
+ID: trainspotters-81aab93b (commit aa6d6306) [RUNNING] - Completed: 17/17 | Passed: 11 | Tokens: 5,853,347 | Time: 774.4s
+   ✅ airflow-assets                             (188.5s, agent: opencode)
+   ✅ airflow-parse-cost                         (146.9s, agent: opencode)
+   ❌ analyze-multi-run-plot                     (115.7s, agent: opencode)
+   ✅ dbt-scd2                                   (340.3s, agent: opencode)
+   ✅ extend-trajectory-multistep                (186.1s, agent: opencode)
+   ✅ git-secret-history                         (325.7s, agent: opencode)
+   ✅ harbor-analyze-results                     (154.6s, agent: opencode)
+   ❌ harbor-analyze-trajectories                (112.7s, agent: opencode)
+   ✅ polars-vectorise                           (309.2s, agent: opencode)
+   ❌ proxmox-container-ssh-troubleshooting      (109.9s, agent: opencode)
+   ✅ pyspark-skew                               (171.1s, agent: opencode)
+   ❌ survey-challenges-by-segment               (217.0s, agent: opencode)
+   ❌ survey-initiatives                         (157.8s, agent: opencode)
+   ✅ survey-normalize                           (291.6s, agent: opencode)
+   ✅ survey-top-challenges                      (203.4s, agent: opencode)
+   ✅ terraform-rekey                            (179.5s, agent: opencode)
+   ❌ warehouse-net-revenue                      (224.6s, agent: opencode)
+---------------------------------------------------------------------------
+
