@@ -13,7 +13,7 @@ api_url := env_var_or_default("API_URL", "https://bench.playground.dataminded.cl
 # file rather than a change to this command.
 #
 # Run one task against your agent, no commit needed.
-eval task="incremental-dupes" agent_dir="agent": base
+eval task="incremental-dupes" agent_dir="agent" job_name="local": base
     #!/usr/bin/env bash
     set -euo pipefail
     KEY="${GATEWAY_API_KEY:-}"
@@ -42,7 +42,7 @@ eval task="incremental-dupes" agent_dir="agent": base
     # the iterate-and-look loop, so it has to be re-runnable. After the key
     # check, not before: a run that cannot start should not take the previous
     # run's trajectory with it, which is the evidence you are iterating on.
-    rm -rf jobs/local
+    rm -rf jobs/{{job_name}}
     # An Anthropic-speaking harness reads these; ours reads GATEWAY_*. Passing
     # both lets agent.yaml decide without this command knowing which.
     #
@@ -61,7 +61,7 @@ eval task="incremental-dupes" agent_dir="agent": base
 
     # harbor is a uv tool, so the repo is not on its sys.path.
     PYTHONPATH={{justfile_directory()}} harbor run \
-      --config agent.yaml -p "$(just _task-path {{task}})" -n 1 -o jobs --job-name local -y \
+      --config agent.yaml -p "$(just _task-path {{task}})" -n 1 -o jobs --job-name {{job_name}} -y \
       --mounts "$MOUNTS]" \
       --ae SUBMISSION_LOCAL_DIR=/submission-src \
       --ae GATEWAY_URL="$GW" \
